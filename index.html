@@ -2,31 +2,79 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>おやさいページ</title>
+  <title>ヤン株式会社</title>
   <style>
     body {
+      margin: 0;
+      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    /* ヘッダー */
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
       text-align: center;
-      background-color: #ffffff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* メイン */
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
 
     img {
-      width: 400px;
-      margin-top: 30px;
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 32px;
     }
 
     p {
-      font-size: 50px;
-      font-weight: bold;
-      color: #333;
-      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-      margin-top: 10px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
-  <img src="image.jpeg">
-  <p>おやさいさん</p>
+  <header>
+    おやさい株式会社
+  </header>
+
+  <div class="container">
+    <img src="image.jpeg" alt="おやさい">
+    <h1>おやさいさん</h1>
+    <p>
+      全く新しい、新鮮なデザイン。<br>
+      毎日の日々に、ちょっとしたおやさいさんを。
+    </p>
+  </div>
+
+  <footer>
+    © 2026 ヤン株式会社
+  </footer>
 
 </body>
 </html>
